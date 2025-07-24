@@ -1,0 +1,49 @@
+app-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 2rem;
+    z-index: 2;
+}
+
+
+app-sidebar {
+    position: fixed;
+    left: 0px;
+    width: 60px;
+    height: calc(100%-4rem);
+    /* display: block; */
+    z-index: 2;
+    background-color: rgb(250, 144, 4)
+}
+
+app-grid {
+    display: block;
+    position: sticky;
+}
+
+input {
+    width: 135px;
+}
+
+select {
+    width: 135px;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    top: 3rem;
+    z-index: 1;
+}
+
+.wrapper {
+    position: relative;
+    left: 260px;
+    width: calc(100%-260px);
+    transition: var(--tran-05);
+}
+
+app-home {
+    align-items: start;
+}
